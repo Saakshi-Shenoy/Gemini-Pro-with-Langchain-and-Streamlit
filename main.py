@@ -22,7 +22,6 @@ model = ChatGoogleGenerativeAI(model="gemini-pro")
 def translate_role_for_streamlit(user_role):
     if user_role == "model":
         return "assistant"
-    
     else:
         return user_role
 
